@@ -1,0 +1,67 @@
+Git Lab Tutorials completed on: 10/24/2025
+GitHub account created on: Around August 2024
+Repository access: <YOUR GITHUB REPO URL> (instructor invited)
+
+=== Q1 ===
+Paste the console output you saved at the end of Step 2B (after git push):
+<PASTE the push output here, exactly as printed>
+
+=== Q2 ===
+Command used:
+git rev-list --count HEAD
+Result: 9
+Just re-checking: 
+git rev-list --count --all
+Result: 9
+
+=== Q3 ===
+Command used:
+git log -1 --format=%ci -- README.md
+Result:
+2025-10-24 19:13:46 -0400
+
+(You can also show)
+git log -1 -- README.md
+
+=== Q4 ===
+Two reasons branches are used in Git:
+1) Isolate new features and experiment without breaking the main branch.
+2) Enable parallel work and safer reviews or merges.
+
+=== Q5 ===
+- git log : shows commit history (who/when/message/hash)
+- git status : shows working tree state vs last commit (modified/staged/untracked)
+
+=== Q6 ===
+Command Used: 
+git log --oneline --name-only --follow -- Vehicle.h
+Results: 
+03106e9 -> Declared the trivial destructors for all classes -> Fully formatted toString methods for all classes -> Added test cases in the main method for testing the implementations -> Added validation on value for engine sizes in the  Car class
+Vehicle.h
+f9cd890 -> Partial implementation of PoweredVehicle and Car -> Definition of virtual functions
+Vehicle.h
+f9c24b0 Refactored Vehicle class to separate definition and declarations Added mileageEstimate abstract method to Vehicle Implemented the Bicycle class
+Vehicle.h
+4f6c88c Base Vehicle class created
+Vehicle.h
+
+=== Q7 (4 pts) ===
+Command Used:
+git log --oneline --grep="file" -i
+Result: 
+f4975e5 -> Adding an empty README.md file
+
+=== Q8 ===
+OOP quick definitions 
+Inheritance — a subclass reuses or extends a superclass. It gets fields/methods and can override behavior.
+Polymorphism — a common type or interface that lets different subclasses respond with their own overridden methods at runtime.
+Encapsulation — keeps data and methods together and hide internals behind a public interface to reduce coupling and bugs.
+
+=== Q9 ===
+The main difference is that in the Integration Manager setup, one person handles merging everyone’s work into the main repo.
+In the Dictator and Lieutenants workflow, a few trusted lieutenants handle merges for smaller groups, and only the dictator pushes to the main repo. 
+It spreads out the work but still keeps control at the top.
+
+=== Q10 (5 pts) ===
+Instead of everyone pushing to one place and creating conflicts, lieutenants manage their groups, then the dictator reviews and merges everything cleanly. 
+It saves time and avoids chaos.
