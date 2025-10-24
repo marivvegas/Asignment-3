@@ -1,10 +1,23 @@
 Git Lab Tutorials completed on: 10/24/2025
 GitHub account created on: Around August 2024
-Repository access: <YOUR GITHUB REPO URL> (instructor invited)
+Repository access: https://github.com/marivvegas/Asignment-3.git
 
 === Q1 ===
-Paste the console output you saved at the end of Step 2B (after git push):
-<PASTE the push output here, exactly as printed>
+Output:
+PS C: \Users \mvvic\CEN4020\Asignment-3> git add docs/status. txt
+• PS C: \Users \mvvic\CEN4020\Asignment-3> git commit -m "Record repository status in docs/status.txt"
+[master caba8ca] Record repository status in docs/status.txt
+1 file changed, e insertions+), 0 deletions(-) create mode 100644 docs/status.txt
+PS C: \Users \mvvic\CEN4020\Asignment-3> git push
+›>
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 347 bytes | 347.00 KiB/s, done.
+Total 4 (delta 1), reused 1 (delta O), pack-reused 0 (from 0) remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/marivvegas/Asignment-3.git
+027623a.. caba8ca master -› master
+PS C:\Users\mvvic\CEN4020\Asignment-3>
 
 === Q2 ===
 Command used:
@@ -25,8 +38,8 @@ git log -1 -- README.md
 
 === Q4 ===
 Two reasons branches are used in Git:
-1) Isolate new features and experiment without breaking the main branch.
-2) Enable parallel work and safer reviews or merges.
+1. Isolate new features and experiment without breaking the main branch.
+2. Enable parallel work and safer reviews or merges.
 
 === Q5 ===
 - git log : shows commit history (who/when/message/hash)
@@ -45,7 +58,7 @@ Vehicle.h
 4f6c88c Base Vehicle class created
 Vehicle.h
 
-=== Q7 (4 pts) ===
+=== Q7 ===
 Command Used:
 git log --oneline --grep="file" -i
 Result: 
