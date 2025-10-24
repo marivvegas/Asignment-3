@@ -62,6 +62,6 @@ The main difference is that in the Integration Manager setup, one person handles
 In the Dictator and Lieutenants workflow, a few trusted lieutenants handle merges for smaller groups, and only the dictator pushes to the main repo. 
 It spreads out the work but still keeps control at the top.
 
-=== Q10 (5 pts) ===
+=== Q10  ===
 Instead of everyone pushing to one place and creating conflicts, lieutenants manage their groups, then the dictator reviews and merges everything cleanly. 
 It saves time and avoids chaos.
